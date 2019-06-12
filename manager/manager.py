@@ -16,7 +16,7 @@ class ImageManager:
         if self.features is not None:
             self.features = np.vstack((self.features, img_feature))
         else:
-            self.features = img_feature
+            self.features = np.expand_dims(img_feature, axis=0)
 
         photo_id = shortuuid.uuid()
         self.photo_ids.append(photo_id)
