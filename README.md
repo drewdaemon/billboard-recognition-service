@@ -1,4 +1,4 @@
-# Billboard Recognition Service
+# Visual Billboard Ad Recognition Service
 An HTTP service to accurately predict, given a photograph of a billboard, which ad (out of a database of registered images) is currently showing.
 
 ## Getting started
